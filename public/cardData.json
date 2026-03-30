@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Create professional resumes in minutes using AI templates.",
+    "price": 29.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "feature1": "100+ templates",
+    "feature2": "ATS optimization",
+    "feature3": "Export to PDF",
+    "icon": "../src/assets/products/writing_2327400 1.png"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Automate and improve your email workflow using AI.",
+    "price": 19.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "New",
+    "feature1": "Auto replies",
+    "feature2": "Email scheduling",
+    "feature3": "Smart categorization",
+    "icon": "../src/assets/products/design-tool.png"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Chat with an AI assistant for learning, fun, and productivity.",
+    "price": 9.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "Best Seller",
+    "feature1": "Natural conversation",
+    "feature2": "Multi-language support",
+    "feature3": "Fun games",
+    "icon": "../src/assets/products/camera_8775444 1.png"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Generate stunning graphics, social media posts, and logos with AI.",
+    "price": 49.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "feature1": "Logo creation",
+    "feature2": "Social post templates",
+    "feature3": "AI suggestions",
+    "icon": "../src/assets/products/operation.png"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Optimize your website content with AI-powered SEO suggestions.",
+    "price": 39.99,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "New",
+    "feature1": "Keyword analysis",
+    "feature2": "Content score",
+    "feature3": "Competitor analysis",
+    "icon": "../src/assets/products/portfolio.png"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Get instant coding suggestions, debugging tips, and examples.",
+    "price": 24.99,
+    "period": "monthly",
+    "tag": "best seller",
+    "tagType": "Best Seller",
+    "feature1": "Code completion",
+    "feature2": "Error detection",
+    "feature3": "Example snippets",
+    "icon": "../src/assets/products/social-media.png"
+  }
+]
