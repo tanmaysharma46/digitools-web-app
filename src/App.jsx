@@ -4,7 +4,6 @@ import './App.css'
 import LastCard from './components/lastCard/LastCard'
 import Banner from './components/navBar/banner/Banner'
 import NavBar from './components/navBar/NavBar'
-import Products from './components/products/Products'
 import Rating from './components/rating/Rating'
 import Tabs from './components/tabs/Tabs'
 import { ToastContainer } from 'react-toastify'
@@ -36,7 +35,7 @@ console.log(carts);
 
       <header>
         <nav>
-          <NavBar />
+          <NavBar carts={carts} />
         </nav>
         <Banner></Banner>
 

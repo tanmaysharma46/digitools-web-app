@@ -1,7 +1,7 @@
 import React from 'react';
 import { BsCart2 } from 'react-icons/bs';
 
-const NavBar = () => {
+const NavBar = ({ carts }) => {
     return (
         <>
             <div className="navbar bg-base-100 shadow-sm">
@@ -32,7 +32,15 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end gap-5">
-                    <a href="" > <BsCart2 /></a>
+                    {/* <a href="" > <BsCart2 />{carts.length}</a> */}
+                    <a className="relative flex items-center gap-2 cursor-pointer">
+                        <BsCart2 size={24} />
+
+                        
+                        <span className="absolute -top-2 -right-2 bg-red-500 text-white text-xs w-5 h-5 flex items-center justify-center rounded-full">
+                            {carts.length}
+                        </span>
+                    </a>
                     <a href="">Login</a>
                     <a className="btn rounded-full bg-gradient-to-r text-white from-[#4F39F6] to-[#9514FA]"    >Get Started</a>
                 </div>

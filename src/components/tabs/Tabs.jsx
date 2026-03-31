@@ -8,7 +8,7 @@ const Tabs = ({ productsPromise, carts, setCarts }) => {
     <>
       <div className="tabs m-8 justify-center tabs-box">
         <input type="radio" name="my_tabs_1" className="tab rounded-full" onClick={()=>setActiveTab("product")} aria-label="Product" defaultChecked />
-        <input type="radio" name="my_tabs_1" className="tab rounded-full" onClick={()=>setActiveTab("cart")} aria-label="Cart" />
+        <input type="radio" name="my_tabs_1" className="tab rounded-full" onClick={()=>setActiveTab("cart")} aria-label={`Cart(${carts.length})`} />
       </div>
       {
         aciveTab === "product" &&
@@ -16,7 +16,7 @@ const Tabs = ({ productsPromise, carts, setCarts }) => {
 
       }
       {
-        setActiveTab==="cart"&&
+        aciveTab==="cart"&&
          <Cart carts={carts} setCarts={setCarts}/>
 
       }
