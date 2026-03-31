@@ -9,13 +9,13 @@ const Rating = () => {
                         <h1>50K+</h1>
                         <p>Active Users</p>
                     </div>
-                   <div class="h-32 w-1 bg-gray-500 mt-12"></div>
+                   <div className="h-32 w-1 bg-gray-500 mt-12"></div>
 
                     <div className='p-15'>
                         <h1>200+</h1>
                         <p>Premium Tools</p>
                     </div>
-                   <div class="h-32 w-1 bg-gray-500 mt-12"></div>
+                   <div className="h-32 w-1 bg-gray-500 mt-12"></div>
 
                     <div className='p-15'>
                         <h1>4.9</h1>
