@@ -1,20 +1,21 @@
 import React, { use } from 'react';
 import Card from '../card/Card';
 
-const Products = ({productsPromise,carts, setCarts}) => {
-    const productsData=use(productsPromise);
-    // console.log(productsPromise.value);
+const Products = ({ productsPromise, carts, setCarts }) => {
+    const productsData = use(productsPromise);
+
     return (
-        <div className='grid grid-cols-3 container mx-auto gap-5'>
+        <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 container mx-auto p-4'>
             {
-                productsData.map((product,index)=><Card 
-                key={index}
-                carts={carts}
-                setCarts={setCarts}
-                product={product}
-                ></Card>)
+                productsData.map((product, index) => (
+                    <Card 
+                        key={index}
+                        carts={carts}
+                        setCarts={setCarts}
+                        product={product}
+                    />
+                ))
             }
-            
         </div>
     );
 };

@@ -1,0 +1,32 @@
+[
+  {
+    "plan": "Starter",
+    "description": "Perfect for getting started",
+    "price": "$0/Month",
+    "feature1": "Access to 10 free tools",
+    "feature2": "Basic Templates",
+    "feature3": "Community Support",
+    "feature4": "1 project per month",
+    "buttonText": "Get Started Free"
+  },
+  {
+    "plan": "Pro",
+    "description": "For growing teams and projects",
+    "price": "$19/Month",
+    "feature1": "Access to 50 free tools",
+    "feature2": "Advanced Templates",
+    "feature3": "Priority Support",
+    "feature4": "5 projects per month",
+    "buttonText": "Upgrade to Pro"
+  },
+  {
+    "plan": "Premium",
+    "description": "All features for professionals",
+    "price": "$49/Month",
+    "feature1": "Unlimited tools access",
+    "feature2": "Premium Templates",
+    "feature3": "24/7 Support",
+    "feature4": "Unlimited projects",
+    "buttonText": "Go Premium"
+  }
+]

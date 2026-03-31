@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import { TiTick } from 'react-icons/ti';
 import { toast } from 'react-toastify';
 
-const Card = ({ product,carts, setCarts }) => {
+const Card = ({ product, carts, setCarts }) => {
 
     const [isBuy, setIsBuy] = useState(false);
     const handleBuy = () => {
@@ -13,7 +13,7 @@ const Card = ({ product,carts, setCarts }) => {
     }
     return (
         <div className=' container mx-auto '>
-            <div className="card bg-base-100 w-96 shadow-sm">
+            <div className="card bg-base-100 w-96 shadow-2xl">
                 <div className='flex justify-between p-5'>
 
                     <div>
@@ -57,7 +57,7 @@ const Card = ({ product,carts, setCarts }) => {
                             className={`btn w-full rounded-full ${isBuy ? "bg-green-400 hover:bg-green-500" : "bg-blue-500 hover:bg-blue-600"
                                 }`}
                         >
-                            {isBuy ? "Added to cart" : "Buy Now"}
+                           <span className='text-white'> {isBuy ? "Added to cart" : "Buy Now"}</span>
                         </button>
                     </div>
 
