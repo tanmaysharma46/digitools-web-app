@@ -6,14 +6,14 @@ const Cart = ({ carts, setCarts }) => {
 
     const handleRemoveAll=()=>{
         setCarts([]);
-        toast.error("Cart Removed");
+        toast.error("All Cart Removed");
     
     }
 
     const handleRemove = (id) => {
         const remainCarts = carts.filter(item => item.id !== id);
         setCarts(remainCarts);
-        toast.error("All cart removed");
+        toast.error("cart removed");
     };
 
     const totalPrice = carts.reduce(

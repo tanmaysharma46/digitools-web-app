@@ -10,7 +10,7 @@
     "feature1": "100+ templates",
     "feature2": "ATS optimization",
     "feature3": "Export to PDF",
-    "icon": "../src/assets/products/writing_2327400 1.png"
+    "icon": "https://i.ibb.co.com/tpzxJb87/writing-2327400-1.png"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "feature1": "Auto replies",
     "feature2": "Email scheduling",
     "feature3": "Smart categorization",
-    "icon": "../src/assets/products/design-tool.png"
+    "icon": "https://i.ibb.co.com/nssFN0Fw/design-tool.png"
   },
   {
     "id": 3,
@@ -36,7 +36,7 @@
     "feature1": "Natural conversation",
     "feature2": "Multi-language support",
     "feature3": "Fun games",
-    "icon": "../src/assets/products/camera_8775444 1.png"
+    "icon": "https://i.ibb.co.com/fzq8W7gx/camera-8775444-1.png"
   },
   {
     "id": 4,
@@ -49,7 +49,7 @@
     "feature1": "Logo creation",
     "feature2": "Social post templates",
     "feature3": "AI suggestions",
-    "icon": "../src/assets/products/operation.png"
+    "icon": "https://i.ibb.co.com/Kx0ZFBpD/operation.png"
   },
   {
     "id": 5,
@@ -62,7 +62,7 @@
     "feature1": "Keyword analysis",
     "feature2": "Content score",
     "feature3": "Competitor analysis",
-    "icon": "../src/assets/products/portfolio.png"
+    "icon": "https://i.ibb.co.com/qMdFHrhv/portfolio.png"
   },
   {
     "id": 6,
@@ -75,6 +75,6 @@
     "feature1": "Code completion",
     "feature2": "Error detection",
     "feature3": "Example snippets",
-    "icon": "../src/assets/products/social-media.png"
+    "icon": "https://i.ibb.co.com/DDMmZmqH/social-media.png"
   }
 ]

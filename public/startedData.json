@@ -4,20 +4,20 @@
     "title": "Create Account",
     "description": "Sign up and create your personal account.",
     "step": "01",
-    "image": "../src/assets/user.png"
+    "image": "https://i.ibb.co.com/67Jq6K2R/user.png"
   },
   {
     "id": 2,
     "title": "Choose Products",
     "description": "Browse our catalog and select the tools that fit your needs.",
     "step": "02",
-    "image": "../src/assets/package.png"
+    "image": "https://i.ibb.co.com/Vc3cWPVm/package.png"
   },
   {
     "id": 3,
     "title": "Start Using",
     "description": "Enjoy using our tools and boost your productivity.",
     "step": "03",
-    "image": "../src/assets/rocket.png"
+    "image": "https://i.ibb.co.com/NddS3Wjf/rocket.png"
   }
 ]

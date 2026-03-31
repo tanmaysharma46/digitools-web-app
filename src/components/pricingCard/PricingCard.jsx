@@ -48,3 +48,5 @@ const PricingCard = ({ data }) => {
 };
 
 export default PricingCard;
+
+

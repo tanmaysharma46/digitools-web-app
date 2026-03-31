@@ -12,13 +12,13 @@ import Footer from './components/footer/Footer'
 import Started from './components/startedSection/Started'
 
 const startedFetchData=async()=>{
-  const res=await fetch('../public/startedData.json');
+  const res=await fetch('/startedData.json');
   return res.json();
 }
 const startedPromise=startedFetchData();
 
 const pricingFetchData = async() => {
-  const res = await fetch('../public/pricingData.json')
+  const res = await fetch('/pricingData.json')
     return res.json();
 
 }
@@ -26,7 +26,7 @@ const pricingPromise=pricingFetchData();
 
 const fetchData = async () => {
 
-  const res = await fetch('../public/cardData.json')
+  const res = await fetch('/cardData.json')
   return res.json();
 
 }
