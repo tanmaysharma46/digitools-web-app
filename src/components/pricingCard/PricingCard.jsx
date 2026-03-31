@@ -8,7 +8,7 @@ const PricingCard = ({ data }) => {
   const tickColor = isPro ? 'white' : 'green';
 
   return (
-    <div className={`w-[380px] h-[448px] p-5 shadow-2xl rounded-2xl flex flex-col justify-between relative ${cardBg}`}>
+    <div className={`w-[380px] h-[448px] p-5 relative hover:scale-105 transition duration-300 shadow-2xl rounded-2xl flex flex-col justify-between ${cardBg}`}>
       
       
       {isPro && (

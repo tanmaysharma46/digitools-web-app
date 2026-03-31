@@ -51,7 +51,7 @@ const Cart = ({ carts, setCarts }) => {
             </div>
             <div>
                 <button onClick={()=>handleRemoveAll()} className='btn container
-                 mx-auto text-4xl text-blue-500 rounded-2xl m-5 p-5'>Proceed to CheckOut</button>
+                 mx-auto text-3xl p-5 text-white bg-blue-500 font-normal rounded-full m-5 p-5'>Proceed to CheckOut</button>
             </div>
         </div>
         }

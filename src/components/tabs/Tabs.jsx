@@ -7,8 +7,8 @@ const Tabs = ({ productsPromise, carts, setCarts }) => {
   return (
     <>
       <div className="tabs m-8 justify-center tabs-box">
-        <input type="radio" name="my_tabs_1" className="tab rounded-full" onClick={()=>setActiveTab("product")} aria-label="Product" defaultChecked />
-        <input type="radio" name="my_tabs_1" className="tab rounded-full" onClick={()=>setActiveTab("cart")} aria-label={`Cart(${carts.length})`} />
+        <input type="radio" name="my_tabs_1" className={`tab  rounded-full ${aciveTab==="product"?"bg-gradient-to-r text-white from-[#4F39F6] to-[#9514FA] ":""}`} onClick={()=>setActiveTab("product")} aria-label="Product" defaultChecked />
+        <input type="radio" name="my_tabs_1" className={`tab  rounded-full ${aciveTab==="cart"?"bg-gradient-to-r text-white from-[#4F39F6] to-[#9514FA] ":""}`} onClick={()=>setActiveTab("cart")} aria-label={`Cart(${carts.length})`} />
       </div>
       {
         aciveTab === "product" &&

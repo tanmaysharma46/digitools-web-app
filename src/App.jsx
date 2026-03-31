@@ -9,6 +9,13 @@ import Tabs from './components/tabs/Tabs'
 import { ToastContainer } from 'react-toastify'
 import Pricing from './components/pricingSection/Pricing'
 import Footer from './components/footer/Footer'
+import Started from './components/startedSection/Started'
+
+const startedFetchData=async()=>{
+  const res=await fetch('../public/startedData.json');
+  return res.json();
+}
+const startedPromise=startedFetchData();
 
 const pricingFetchData = async() => {
   const res = await fetch('../public/pricingData.json')
@@ -42,7 +49,7 @@ function App() {
       <ToastContainer></ToastContainer>
 
       <header>
-        <nav>
+        <nav className=' sticky overflow-visible top-0 z-50'>
           <NavBar carts={carts} />
         </nav>
         <Banner></Banner>
@@ -53,6 +60,8 @@ function App() {
       </header>
       <main>
         <Tabs carts={carts} setCarts={setCarts} productsPromise={productsPromise} />
+
+        <Started startedPromise={startedPromise}/>
         <Pricing pricingPromise={pricingPromise} />
 
 

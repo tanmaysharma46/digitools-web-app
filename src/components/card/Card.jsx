@@ -13,7 +13,7 @@ const Card = ({ product, carts, setCarts }) => {
     }
     return (
         <div className=' container mx-auto '>
-            <div className="card bg-base-100 w-96 shadow-2xl">
+            <div className="card relative hover:scale-105 transition duration-300 bg-base-100 w-96 shadow-2xl">
                 <div className='flex justify-between p-5'>
 
                     <div>
