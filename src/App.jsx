@@ -53,12 +53,13 @@ function App() {
       </header>
       <main>
         <Tabs carts={carts} setCarts={setCarts} productsPromise={productsPromise} />
+        <Pricing pricingPromise={pricingPromise} />
+
 
       </main>
 
 
       <footer>
-        <Pricing pricingPromise={pricingPromise} />
         <Footer />
       </footer>
 

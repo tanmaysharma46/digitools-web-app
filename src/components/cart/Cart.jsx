@@ -23,7 +23,8 @@ const Cart = ({ carts, setCarts }) => {
 
     return (
         <>
-        {
+        <div className=' container mx-auto rounded-2xl p-5 bg-base-100 shadow-2xl'>
+            {
             carts.length===0 ? 
             <div className=' bg-base-100 shadow-2xl rounded-2xl bg-blue-300 text-white container mx-auto '>
                 <p className=' p-5 rounded-2xl text-4xl text-center font-bold'>Cart is empty</p>
@@ -54,6 +55,7 @@ const Cart = ({ carts, setCarts }) => {
             </div>
         </div>
         }
+        </div>
         </>
       
     );
