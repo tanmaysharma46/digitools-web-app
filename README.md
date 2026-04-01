@@ -1,16 +1,20 @@
-# React + Vite
+Digitools - Digital Asset Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#Description
 
-Currently, two official plugins are available:
+~Digitools is a modern and sleek e-commerce platform designed for purchasing high-quality digital assets and developer tools. This project focuses on providing a seamless user experience with real-time cart updates and interactive section toggling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+#Technologies Used
+Frontend: React.js
+Styling: Tailwind CSS and DaisyUI
+Notifications: React-Toastify
+Deployment: Netlify
+Data Management: JSON
 
-## React Compiler
+#Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+1.Interactive Product Toggling: Users can switch between the product gallery and the shopping cart section instantly without page reloads.
+2.Real-time Cart Management: Integrated React-Toastify alerts provide immediate feedback when adding tools, removing items, or completing a checkout.
+3.Responsive Grid Layout: A clean 3-column architecture that automatically adjusts to 1-column on mobile devices, ensuring accessibility across all screens.
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
